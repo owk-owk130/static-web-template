@@ -1,0 +1,7 @@
+@function vwpc($value) {
+  @return math.div($value, $pc-width) * 100 + vw;
+}
+
+@function vwsp($value) {
+  @return math.div($value, $sp-width) * 100 + vw;
+}

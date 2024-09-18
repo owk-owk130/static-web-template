@@ -1,0 +1,12 @@
+node_modules
+**/*.min.js
+webpack.config.js
+webpack.config.base.js
+webpack.constants.js
+postcss.config.js
+.prettierrc.mjs
+dist
+build
+public
+scripts
+tests
