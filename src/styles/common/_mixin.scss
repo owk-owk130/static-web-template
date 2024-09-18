@@ -1,0 +1,11 @@
+@mixin pc-layout {
+  @media (min-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin sp-layout {
+  @media (max-width: $break-point - 0.1px) {
+    @content;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "plugins": ["stylelint-no-unsupported-browser-features", "stylelint-order"],
+  "rules": {
+    "order/order": ["custom-properties", "declarations"],
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ],
+    "no-duplicate-selectors": true,
+    "selector-class-pattern": null,
+    "media-query-no-invalid": null,
+    "import-notation": null,
+    "at-rule-no-unknown": null,
+    "at-rule-empty-line-before": null,
+    "function-no-unknown": null,
+    "no-invalid-position-at-import-rule": null
+  }
+}

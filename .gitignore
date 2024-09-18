@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules
+
+# build output
+dist
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# DS_Store
+.DS_Store
