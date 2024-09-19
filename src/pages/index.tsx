@@ -14,6 +14,15 @@ export const TopPage = () => {
       <Header />
       <main>
         <h1>Top Page</h1>
+        <div id="countDisplay">0</div>
+        <button id="incrementButton" type="button">
+          Increment
+        </button>
+        <button id="decrementButton" type="button">
+          Decrement
+        </button>
+
+        <script src="path_to_compiled_js_file.js" />
       </main>
       <Footer />
     </div>
