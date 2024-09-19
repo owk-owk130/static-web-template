@@ -21,8 +21,6 @@ export const TopPage = () => {
         <button id="decrementButton" type="button">
           Decrement
         </button>
-
-        <script src="path_to_compiled_js_file.js" />
       </main>
       <Footer />
     </div>
